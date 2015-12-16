@@ -1,3 +1,10 @@
+* {
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body,
 div,
 ul,
@@ -12,10 +19,6 @@ h6 {
   padding:0;
   margin:0;
   font-family: "Roboto", sans-serif;
-}
-
-.clear-fix {
-  overflow: auto;
 }
 
 .education-entry,
@@ -155,14 +158,16 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
-  /*margin: 15px 0 0 15px;*/
-  border: solid 5px;
+  margin: 15px 0 0 15px;
   color: #F8981C;
+  max-width: 100%;
   border-radius: 50%;
 }
 
 img {
-  padding: 10px;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
 }
 
 span {
@@ -171,6 +176,7 @@ span {
 
 #lets-connect {
   text-align: center;
+  padding: 0;
 }
 
 /* Media queries to handle various device widths */
@@ -201,11 +207,11 @@ span {
 
 #map {
   display: block;
-  height: 400px;
+  height: 100%;
   margin: 0 5%;
 }
 
-#mapDiv {
+#map-div {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
