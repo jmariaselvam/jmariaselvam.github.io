@@ -16,8 +16,8 @@ h3,
 h4,
 h5,
 h6 {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -123,7 +123,7 @@ a {
 .gray {
   background-color: #f3f3f3;
   padding-bottom: 10px;
-  clear:both;
+  clear: both;
 }
 
 .dark-gray {
@@ -159,7 +159,7 @@ ul {
   width: 200px;
   display: none;
   margin: 15px 0 0 15px;
-  color: #F8981C;
+  color: #f8981c;
   max-width: 100%;
   border-radius: 50%;
 }
